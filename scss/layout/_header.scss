@@ -1,0 +1,345 @@
+.header {
+  padding-top: 2.7rem;
+  padding-bottom: 2.7rem;
+  background-color: aqua;
+}
+.header__container {
+  display: flex;
+  justify-content: flex-end;
+}
+.container {
+}
+.sitenav {
+}
+.sitenav__list {
+  display: flex;
+  gap: 3rem;
+}
+.sitenav__item {
+}
+.sitenav__link {
+  font-weight: 500;
+  font-size: 2rem;
+  color: #000;
+}
+.header__toggle__btn {
+  position: relative;
+  width: 3rem;
+  height: 2.2rem;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+  z-index: 100;
+  border-color: transparent;
+}
+.header__hidden {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  color: #808397;
+  backdrop-filter: blur(4px);
+  width: 100%;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  transition: all 0.3s;
+  transform: translateX(100%);
+
+  ul {
+    flex-direction: column;
+  }
+}
+
+.header__hidden.show {
+  transform: translateX(0%);
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .sitenav__item {
+    display: none;
+  }
+  .header__toggle__btn {
+    display: block;
+  }
+  .img__size {
+    height: 30rem;
+    padding-top: -30rem;
+  }
+}
+.site__logo {
+  padding-right: 90rem;
+}
+.col {
+  color: #ffff;
+}
+.section__title {
+  width: 75rem;
+  height: 6.9rem;
+  font-family: "Fraunces", sans-serif;
+  font-size: 5.6rem;
+  font-weight: 900;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 19.5rem;
+  line-height: 100%;
+  color: #ffffff;
+}
+@media screen and (max-width: 400px) {
+  .site__logo {
+    margin-left: 20rem;
+  }
+  .section__title {
+    width: 32.7rem;
+    height: 9.8rem;
+    font-size: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.section {
+  background-color: aquamarine;
+}
+.main {
+  margin-top: -48.9rem;
+}
+.main__container {
+}
+.container {
+}
+.main__content {
+}
+.main__title {
+  width: 44.5rem;
+  height: 9.8rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  color: #24303e;
+}
+.main__description {
+  width: 44.5rem;
+  height: 9rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: #808397;
+  padding-top: 3.2rem;
+}
+.brand__link {
+  width: 12rem;
+  height: 2.5rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #24303e;
+  padding-top: 8rem;
+}
+.main__content {
+  margin-top: 60rem;
+}
+.transform__img {
+  width: 72rem;
+  height: 60rem;
+  margin-left: 72rem;
+  margin-top: -40rem;
+}
+
+@media screen and (max-width: 400px) {
+  .transform__image {
+    width: 37.5rem;
+    height: 31.2rem;
+    margin-top: -120rem;
+    margin-left: -90rem;
+  }
+  .main__title {
+    width: 32.7rem;
+    height: 7.8rem;
+    font-size: 3.2rem;
+    margin-top: 90rem;
+  }
+  .main__description {
+    width: 25rem;
+    height: 19rem;
+    font-size: 1.8rem;
+    margin-top: 5rem;
+  }
+  .brand__link {
+    display: none;
+  }
+}
+.audience {
+  display: flex;
+}
+.audience__image {
+}
+.audience_img {
+}
+.audience__content {
+}
+.audience__title {
+  width: 44.5rem;
+  height: 9.8rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  color: #24303e;
+  margin-top: 15.7rem;
+  padding-left: 11.7rem;
+}
+.audience__description {
+  width: 44.5rem;
+  height: 9rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: #808397;
+  padding-top: 3.3rem;
+  padding-left: 11.7rem;
+}
+.audience__link {
+  width: 25rem;
+  height: 2.5rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #24303e;
+  padding-top: 15rem;
+  padding-left: 11.7rem;
+}
+
+@media screen and (max-width: 400px) {
+  .audience_img {
+    width: 37.5rem;
+    height: 31.2;
+    margin-top: 100rem;
+    margin-left: -5rem;
+  }
+  .audience__title {
+    width: 32.7rem;
+    height: 7.8rem;
+    font-size: 3.2rem;
+    margin-top: 140rem;
+    margin-left: -45rem;
+  }
+  .audience__description {
+    width: 32.7rem;
+    height: 15rem;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    margin-left: -45rem;
+    padding-top: 8rem;
+  }
+  .audience__link {
+    display: none;
+  }
+}
+
+.graphic__design {
+  width: 91rem;
+  height: 113.8rem;
+  background-repeat: no-repeat;
+  margin-top: 25rem;
+  margin-top: -5rem;
+}
+.graphic__design__title {
+  width: 60rem;
+  height: 3.5rem;
+  font-family: "Francues", sans-serif;
+  font-weight: 900;
+  font-size: 2.8rem;
+  color: #24554a;
+  padding-top: 39.8rem;
+  padding-left: 20rem;
+}
+.graphic__design__description {
+  width: 55rem;
+  height: 8.1rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  color: #24554a;
+  padding-top: 5rem;
+  padding-left: 19.1rem;
+}
+@media screen and (max-width: 400px) {
+  .graphic__design {
+    width: 37.5rem;
+    height: 90rem;
+    margin-left: -5rem;
+    padding-top: 12.1rem;
+    margin-top: 30rem;
+  }
+  .graphic__design__title {
+    width: 22.1rem;
+    height: 3.54rem;
+    font-size: 2.8rem;
+    margin-top: -14rem;
+    margin-left: -10rem;
+  }
+  .graphic__design__description {
+    width: 50rem;
+    height: 8.1rem;
+    font-size: 1.6rem;
+    margin-left: -17rem;
+    padding-top: 9rem;
+  }
+}
+.photography {
+  width: 72rem;
+  height: 55.1rem;
+  margin-left: 72rem;
+  margin-top: -109rem;
+}
+.phoyography__title {
+  width: 19.1rem;
+  height: 3.5rem;
+  font-family: "Fraunces", sans-serif;
+  font-size: 900;
+  font-size: 2.8rem;
+  color: #052c3b;
+  padding-left: 26.55rem;
+  padding-top: 39.8rem;
+}
+.photography__description {
+  width: 50rem;
+  height: 8.1rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  color: #19536c;
+  padding-top: 5rem;
+  padding-left: 19.1rem;
+}
+
+@media screen and (max-width: 400px) {
+  .photography {
+    width: 37.5rem;
+    height: 60rem;
+    margin-top: -28rem;
+    margin-left: -5rem;
+  }
+  .phoyography__title {
+    width: 19.1rem;
+    height: 3.5rem;
+    font-size: 2.8rem;
+    margin-left: -20rem;
+  }
+  .photography__description {
+    width: 50rem;
+    height: 12rem;
+    font-size: 1.6rem;
+    margin-left: -17rem;
+  }
+}

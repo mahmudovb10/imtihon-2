@@ -4,14 +4,155 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sunnyside</title>
     <link rel="stylesheet" href="./css/style.min.css" />
   </head>
   <body>
-    <!-- header -->
-    <header></header>
-    <main></main>
-    <!-- footer -->
-    <footer></footer>
+    <header
+      class="header"
+      style="
+        background-image: url(./images/header-main-image.png);
+        background-size: cover;
+      "
+    >
+      <div class="header__container container">
+        <div class="logo">
+          <img class="site__logo" src="./images/logo.svg" alt="" />
+        </div>
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav__link col" href="#">About</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link col" href="#">Services</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link col" href="">Projects</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link btn" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <button id="showBtn" class="header__toggle__btn">
+          <img src="./images/burger.svg" alt="" width="30" height="18" />
+        </button>
+      </div>
+      <div class="header__hidden">
+        <nav class="header__hidden__nav">
+          <ul class="sitenav__list">
+            <li class="site__nav__item">
+              <a class="sitenav__link" href="#">About</a>
+            </li>
+            <li class="site__nav__item">
+              <a class="sitenav__link" href="#">Services</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav__link" href="#">Projects</a>
+            </li>
+            <li class="site__nav__item">
+              <a class="sitenav__link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section
+      style="
+        background-image: url(./images/header-main-image.png);
+        background-size: cover;
+      "
+      class="section"
+    >
+      <div class="section__container container">
+        <div class="section__content">
+          <h1 class="section__title">We are creatives</h1>
+        </div>
+      </div>
+      <div class="img__size" style="height: 105rem"></div>
+    </section>
+    <main class="main">
+      <div class="main__container container">
+        <div class="main__content">
+          <h2 class="main__title">Transform your brand</h2>
+          <p class="main__description">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <a class="brand__link" href="">LEARN MORE</a>
+        </div>
+        <div class="transform__image">
+          <img
+            class="transform__img"
+            src="./images/desktop/image-transform.jpg"
+            alt=""
+          />
+        </div>
+        <div class="audience">
+          <div class="audience__image">
+            <img
+              class="audience_img"
+              src="./images/desktop/image-stand-out.jpg"
+              alt=""
+            />
+          </div>
+          <div class="audience__content">
+            <h2 class="audience__title">Stand out to the right audience</h2>
+            <p class="audience__description">
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+            <a class="audience__link" href="">LEARN MORE</a>
+          </div>
+        </div>
+        <div
+          style="background-image: url(./images/image-graphic-design.jpg)"
+          class="graphic__design"
+        >
+          <h4 class="graphic__design__title">Graphic Design</h4>
+          <p class="graphic__design__description">
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+        <div
+          style="background-image: url(./images/desktop/image-photography.jpg)"
+          class="photography"
+        >
+          <h4 class="phoyography__title">Photography</h4>
+          <p class="photography__description">
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
+      </div>
+    </main>
+    <div class="cta">
+      <div class="cta__container container">
+        <div class="cta__content">
+          <p class="cta__title">CLIENT TESTIMONIALS</p>
+        </div>
+        <div class="cta__emily">
+          <img class="emily__img" src="./images/image-emily.jpg" alt="" />
+          <p class="emily__description">
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <p class="emily__name">Emily R.</p>
+          <p class="emily__position">Marketing Director</p>
+        </div>
+      </div>
+    </div>
+    <script src="./js/app.js"></script>
   </body>
 </html>

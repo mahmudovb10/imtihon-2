@@ -1,0 +1,84 @@
+.cta {
+}
+.cta__container {
+}
+.container {
+}
+.cta__content {
+}
+.cta__title {
+  width: 34.8rem;
+  height: 2.5rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #a7aaad;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 16rem;
+}
+.cta__emily {
+  padding-top: 8.1rem;
+}
+.emily__img {
+  width: 7.2rem;
+  height: 7.2rem;
+  border-radius: 50%;
+}
+.emily__description {
+  width: 35rem;
+  height: 9.6rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  color: #5b636d;
+  padding-top: 5.8rem;
+}
+.emily__name {
+  width: 7.9rem;
+  height: 2.2rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #24303e;
+  padding-top: 6.9rem;
+}
+.emily__position {
+  width: 20.3rem;
+  height: 2.5rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  color: #a7aaad;
+  padding-top: 2.5rem;
+}
+
+@media screen and (max-width: 400px) {
+  .cta__title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .emily__img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .emily__description {
+    width: 32.7rem;
+    height: 9.6rem;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .emily__name {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .emily__position {
+    margin-left: 8rem;
+  }
+}

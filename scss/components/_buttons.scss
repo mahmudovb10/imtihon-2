@@ -1,0 +1,21 @@
+.btn {
+  width: 14rem;
+  height: 5.6rem;
+  border-radius: 2.8rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  background-color: #ffffff;
+  color: #24303e;
+  padding-left: 3.2rem;
+  padding-top: 1.6rem;
+
+  &:hover {
+    opacity: 25.37%;
+    background-color: #ffffff;
+  }
+  &:hover {
+    color: #e5e5e5;
+  }
+}
