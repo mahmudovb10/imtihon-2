@@ -82,3 +82,258 @@
     margin-left: 8rem;
   }
 }
+.cta__thomas {
+  margin-left: 54.5rem;
+  margin-top: -27rem;
+}
+.thomas__img {
+  width: 7.2rem;
+  height: 7.2rem;
+  border-radius: 50%;
+}
+.thomas__description {
+  width: 35rem;
+  height: 9.6rem;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 3.2rem;
+  color: #5b636d;
+  padding-top: 5.8rem;
+}
+.thomas__name {
+  width: 9.7rem;
+  height: 2.2rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #24303e;
+  padding-top: 6.9rem;
+}
+.thomas__position {
+  width: 20.3rem;
+  height: 2.5rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  color: #a7aaad;
+  padding-top: 2.5rem;
+}
+
+@media screen and (max-width: 400px) {
+  .cta__thomas {
+    margin-top: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thomas__img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thomas__description {
+    width: 32.7rem;
+    height: 12.8rem;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thomas__name {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .thomas__position {
+    margin-left: 6rem;
+  }
+}
+
+.cta__jennie {
+  margin-left: 105rem;
+  margin-top: -26rem;
+}
+.jenie__img {
+  width: 7.2rem;
+  height: 7.2rem;
+  border-radius: 50%;
+}
+.jennie__description {
+  width: 35rem;
+  height: 9.6rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #5b636d;
+  padding-top: 5.8rem;
+}
+.jennie__name {
+  width: 8.2rem;
+  height: 2.2rem;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  font-size: 1.8rem;
+  color: #24303e;
+  padding-top: 6.9rem;
+}
+.jennie__position {
+  width: 20rem;
+  height: 2.5rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  color: #a7aaad;
+  padding-top: 2.5rem;
+}
+
+@media screen and (max-width: 400px) {
+  .cta__jennie {
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .jenie__img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .jennie__description {
+    width: 32.7rem;
+    height: 9.6rem;
+    font-size: 1.8rem;
+  }
+  .jennie__name {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .jennie__position {
+    margin-left: 9rem;
+  }
+}
+.site__ads {
+}
+.ads__container {
+  display: flex;
+  padding-top: 16rem;
+}
+.container {
+}
+.milknotles {
+  width: 36rem;
+  height: 44.7rem;
+}
+.orange {
+  width: 36rem;
+  height: 44.7rem;
+}
+.cone {
+  width: 36rem;
+  height: 44.7rem;
+}
+.sugarcibes {
+  width: 36rem;
+  height: 44.7rem;
+}
+@media screen and (max-width: 400px) {
+  .ads__container {
+    margin-left: -5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .milknotles {
+    width: 18.8rem;
+    height: 14;
+  }
+  .orange {
+    width: 18.8rem;
+    height: 14;
+  }
+  .cone {
+    width: 18.8rem;
+    height: 14;
+  }
+  .sugarcibes {
+    width: 18.8rem;
+    height: 14;
+  }
+}
+.footer {
+}
+.footer__container {
+}
+.footer_main {
+  background-color: #90d4c6;
+  width: 100%;
+  height: 35rem;
+}
+.footer__content {
+}
+.footer__nav {
+  margin-left: 80rem;
+}
+.footer__link {
+  width: 4.8rem;
+  height: 2.5rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: #458d7e;
+  gap: 5.7rem;
+  padding-top: 4rem;
+}
+.about {
+  padding-left: -11rem;
+}
+.services {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.project {
+  padding-left: 8rem;
+}
+.footer__logo {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 7.2rem;
+}
+.footer__social {
+  display: flex;
+  gap: 2.8rem;
+  margin-left: 86rem;
+  margin-top: 8.8rem;
+  &:hover {
+    color: #ffffff;
+  }
+}
+.footer__face {
+}
+.footer__insta {
+}
+.footer__twit {
+}
+.footer__pinter {
+}
+@media screen and (max-width: 400px) {
+  .footer__link {
+    display: flex;
+    flex-direction: column;
+    margin-left: -70rem;
+    gap: 1rem;
+    line-height: 1rem;
+  }
+  .about {
+    padding-left: 2rem;
+  }
+  .services {
+    padding-left: -3rem;
+  }
+  // .project {
+  //   margin-left: -38rem;
+  // }
+  .footer__social {
+    margin-left: 9rem;
+  }
+}
